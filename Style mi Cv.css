@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+body{
+    background: #EBDFDF;
+}
+header{
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#foto-mia{
+    padding: 10px;
+    border-radius: 50%;
+}    
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#cuerpo-de-pagina{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+article {
+    padding: 0px 0px 8px 0px;
+}
+
+.parrafoprincipal {
+    padding: 20px 0px 30px 0px;
+    text-align: justify;
+}
+#contenidoizquierdo {
+    padding-right:  25px;;
+    padding-left:  25px;
+    background-color: #D1B3B3;
+    border-radius: 5%;
+}
+#contenidoderecho {
+    padding-right: 25px;
+    padding-left:25px;
+}
+.titulos{
+    display: flex;
+    justify-content: center; 
+}
+h3{
+    display: inline-block;
+    background-color: #373741; 
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;}
+ul{
+    padding-left: 15px;
+}
+h5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.firma{
+    padding-left: 220px;
+}
